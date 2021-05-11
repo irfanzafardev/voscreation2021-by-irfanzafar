@@ -147,7 +147,7 @@ img {
 
 /* Feature-sub-content */
 .feature-sub-content {
-  padding: 5px 150px 5px 50px;
+  padding: 5px 100px 5px 50px;
 }
 
 .feature-sub-content h6 {
@@ -422,6 +422,7 @@ footer p {
 
 /* End of Footer */
 
+/* Animation */
 .reveal {
   position: relative;
   transform: translateY(120px);
@@ -433,7 +434,7 @@ footer p {
   transform: translateY(0px);
   opacity: 1;
 }
-
+/* End of Animation */
 
 
 

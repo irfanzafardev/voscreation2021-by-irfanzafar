@@ -1,0 +1,441 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: transparent;
+}
+
+.navbar .icon-logo {
+  min-width: 100px;
+}
+
+.navbar .logo {
+  width: 100px;
+}
+
+.navbar-nav {
+  margin-top: 5px;
+}
+
+.nav-item {
+  margin-right: 24px;
+  font-weight: 400;
+}
+
+.nav-item .active {
+  color: #F9B234 !important;
+}
+
+.nav-item a {
+  font-family: 'Poppins';
+  color: #fff !important;
+  font-size: 14px;
+}
+
+.box-container {
+  margin-top: 0px;
+  position: relative;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 50px;      
+}
+
+.element-container {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.search {
+  margin-left: 5px;
+  border: none;
+  font-size: 12px;
+  background-color: transparent;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 50px;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+img {
+  margin: -3px 5px 0 0;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse
+    {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 0 0 10px 10px;
+    }
+}
+
+.fa-bars {
+  color: #fff;
+}
+/* End of Navbar */
+
+/* Carousel */
+.carousel .carousel-item {
+	min-height: 80vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+
+.carousel .carousel-item .header-content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	text-align: left;
+}
+
+.carousel .carousel-item .header-content h1 {
+  padding-left: 50px;
+  font-family: 'Poppins';
+  font-size: 56px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.carousel .carousel-item .header-content .sub-title {
+  padding-left: 50px;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+}
+
+.carousel .carousel-item .header-content p {
+  padding-left: 50px;
+  font-family: 'Poppins';
+  font-weight: 300;
+  color: #fff;
+}
+
+.carousel .carousel-item .header-content button {
+  margin-left: 50px;
+  padding: 11px 25px;
+  font-family: 'Poppins';
+}
+/* End of Carousel */
+
+/* Highlighted-content */
+.highlighted-content {
+  max-width: 100vw;
+}
+
+.highlighted-content .row .col-12 {
+  background-color: #377978;
+  max-height: 78.5vh;
+}
+/* End of Highlighted-content */
+
+
+/* Feature-sub-content */
+.feature-sub-content {
+  padding: 5px 150px 5px 50px;
+}
+
+.feature-sub-content h6 {
+  color: #F9B234;
+}
+
+.feature-sub-content h1 {
+  color: #000;
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.feature-sub-content p {
+  color: #fff;
+}
+
+.feature-news .feature-sub-content {
+  padding: 50px 80px 30px 0px;
+}
+
+.feature-news img {
+  margin: 0 0 0 0;
+  transition: .5s;
+}
+
+.feature-news img:hover {
+  box-shadow: 2px 8px 12px #888888;
+}
+
+.feature-news .feature-sub-content h1 {
+  color: #000;
+  font-size: 32px;
+}
+
+.feature-news .feature-sub-content p {
+  color: #000;
+}
+
+
+.content-row {
+  margin-top: 100px;
+}
+
+.content-row figure figcaption {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+.content-row figure figcaption a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.content-row figure figcaption h6 {
+  text-decoration: none;
+  color: #F9B234;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.content-row figure figcaption a:hover {
+  color: #008325;
+}
+
+.content-row figure img {
+  transition: 800ms;
+}
+
+
+.content-row figure img:hover {
+  transform: scale(.98);
+}
+
+/* End of feature-sub-content */
+
+.feature-quote {
+  margin-top: 100px;
+}
+
+.feature-quote h1 {
+  margin: 60px 0;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+.feature-quote blockquote {
+  padding: 0 0 21px;
+  font-family: 'Merriweather';
+  font-size: 18px;
+  text-align: justify;
+}
+
+.feature-quote h4 {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Jumbotron */
+.jumbotron {
+  min-height: 360px;
+}
+
+.jumbotron h1 {
+  padding: 140px 0;
+}
+
+.hero-image {
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(../assets/pictures/Photo\ by\ no\ one\ cares\ on\ Unsplash.jpg);
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overlay h1 {
+  font-size: 65px;
+  letter-spacing: 0px;
+  margin: 0 0 5px;
+}
+
+.overlay p {
+  margin: 0;
+  font-size: 28px;
+}
+/* End of Jumbotron */
+
+/* Article post */
+.article-image {
+  margin: auto;
+  width: 300px;
+  height: 170px;
+  background-image:url(../assets/pictures/Photo\ by\ no\ one\ cares\ on\ Unsplash.jpg);
+  background-size: cover;
+  margin: 0 0 10px 0;
+}
+
+.article-list figcaption p {
+  margin: 0 0 20px 0;
+  font-family: 'Poppins';
+  color: #000;
+  text-align: justify;
+}
+
+.date-category p {
+  padding-right: 20px;
+  font-weight: 400;
+}
+
+.date-category .exception {
+  padding: 0 !important;
+  color: #F9B234;
+  font-weight: 500;
+}
+/* Article post */
+
+/* Article writing */
+.article-writing p {
+  color: #000;
+  font-family: 'Merriweather';
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* Article writing */
+
+
+
+/* Footer */
+footer {
+  background-color: #222222;
+  margin: 100px 0 0 0;
+}
+
+footer h4 {
+  color: #fff;
+  margin: 0 75px 0 0;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 400;
+  text-align: end;
+}
+
+.footer-navbar {
+  margin-top: 100px;
+}
+
+.footer-nav-link a {
+  text-decoration: none;
+  margin: 0 50px 0 0;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-nav-sub-link {
+  margin: 50px 0 0 0;
+}
+
+.footer-nav-sub-link a {
+  text-decoration: none;
+  margin: 0 50px 0 0;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.email-box-container {
+  margin-top: 0px;
+  position: relative;
+  width: 250px;
+  height: 40px;
+  border: 2px solid #fff;      
+}
+
+.element-container {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.search {
+  margin-left: 5px;
+  border: none;
+  font-size: 12px;
+  background-color: transparent;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 50px;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+img {
+  margin: -3px 5px 0 0;
+}
+
+footer p {
+  margin: 75px 0 0 0;
+  color: #fff;
+  text-align: end;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+
+/* End of Footer */
+
+.reveal {
+  position: relative;
+  transform: translateY(120px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
+
+
+
+

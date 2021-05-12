@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>About Us</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/icons/navbar-logo.png" width="120px" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i title="" class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Agriculture</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="article-page.html" target="_blank">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us-page.html" target="_blank">About Us</a>
+            </li>
+          </ul>
+          <div class="box-container">
+            <table class="element-container">
+              <tr>
+                <td>
+                  <input type="text" placeholder="Search" class="search">
+                </td>
+                <td>
+                  <a href="#">
+                    <img src="assets/icons/search.png" width="14px" alt="seacrh">
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navigation Bar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid" style="background-image: url(assets/pictures/about-us-image.png); background-size: cover;">
+      <div class="container text-center text-white align-middle">
+        <h1 class="display-4">Who we are</h1>
+      </div>
+    </div>
+    <!-- End of Jumbotron -->
+
+    <div class="container">
+      <h1>
+        The Nature Conservancy is a global environmental nonprofit working to create a world where people and nature can thrive.
+      </h1>
+      <p>
+        Founded in the U.S. through grassroots action in 1951, The Nature Conservancy has grown to become one of the most effective and wide-reaching environmental organizations in the world. Thanks to more than a million members and the dedicated efforts of our diverse staff and over 400 scientists, we impact conservation in 72 countries and territories: 38 by direct conservation impact and 34 through partners.
+      </p>
+      <hr>
+  
+      <h4>
+        Our mission is to conserve the lands and waters on which all life depends. To achieve this, we must boldly address the biodiversity and climate crises over the next decade. By maximizing our ability to effect change between now and 2030, we can shape a brighter future for people and our planet.
+      </h4>
+    </div>
+    
+
+    <section class="stand-with-us">
+      <div class="container">
+        <h1>Stand With Us</h1>
+        <p>
+          Our mission demands that we do everything in our power to create a world where people and nature can thrive. Join the cause and become a member of The Nature Conservancy today. In addition to helping us protect the natural world, you'll receive great benefits like our award-winning magazine.
+        </p>
+      <button type="button" class="btn bg-white mt-4">Connect</button>
+      </div>
+    </section>
+
+
+    
+
+    <!-- Footer -->
+    <footer>
+      <div class="container py-5">
+        <div class="row footer-general">
+          <div class="col-8 col-lg-6">
+            <img src="assets/icons/navbar-logo.png" width="120px" alt="">
+          </div>
+          <div class="col-8 col-lg-6 mt-3 mt-lg-0">
+            <h4 class="m-0 text-start text-lg-end">Sign up for updates</h4>
+            <div class="email-box d-flex justify-content-end pt-4">
+              <div class="email-box-container">
+                <table class="element-container">
+                  <tr>
+                    <td>
+                      <input type="email" class="search" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+                    </td>
+                    <td>
+                      <a href="#">
+                        <img src="assets/icons/next.png" width="14px" alt="next">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-navbar">
+          <div class="col-lg-6">
+            <div class="footer-nav-link">
+              <a href="">About</a>
+              <a href="">Connect</a>
+              <a href="">Explore</a>
+            </div>
+            <div class="footer-nav-sub-link">
+              <a href="">Our Mission</a>
+              <a href="">Contact Us</a>
+              <a href="">Articles</a>
+              <a href="">Events</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 text-start">
+            <p>Farm Culture Foundation © 2021. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+    
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

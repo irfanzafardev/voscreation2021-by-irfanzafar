@@ -81,7 +81,7 @@ img {
 }
 
 .fa-bars {
-  color: #fff;
+  color: #fff !important;
 }
 /* End of Navbar */
 
@@ -295,6 +295,45 @@ img {
 }
 /* End of Jumbotron */
 
+/* Menu bar */
+.menu-bar {
+  margin: 70px 0 70px 0;
+}
+
+.menu-bar .container ul li a p {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.menu-bar .container ul li .active p {
+  color: #F9B234 !important;
+}
+
+.menu-bar .container ul .nav-icon {
+  padding: 8px 0 0 0;
+  margin: 0 30px 0 10px;
+}
+
+
+.menu-bar .container ul li p {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* End of Menu bar */
+
 /* Article post */
 .article-image {
   margin: auto;
@@ -331,9 +370,89 @@ img {
   font-size: 16px;
   line-height: 30px;
 }
-
 /* Article writing */
 
+/* About us */
+.about-us .container {
+  padding: 0 150px;
+}
+
+@media (max-width: 767px) {
+  .about-us .container
+    {
+        padding: 0 50px;
+    }
+}
+
+.about-us .container h1 {
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.about-us .container p {
+  font-family: 'Merriweather';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.about-us .container h4 {
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.stand-with-us {
+  background-color: #377978;
+}
+
+.stand-with-us .container {
+  padding: 60px 180px;
+}
+
+@media (max-width: 767px) {
+  .stand-with-us .container
+    {
+      padding: 60px 80px;
+    }
+}
+
+.stand-with-us .container h1 {
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.stand-with-us .container p {
+  font-family: Merriweather;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+
+/* End of About us */
 
 
 /* Footer */
